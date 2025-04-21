@@ -11,9 +11,9 @@
 }
 
 .child{
-    padding: 50px;
+    padding: 30px;
     position: absolute;
-    width: 300px;
+    width: 380px;
     // background-color: #f3afaf;
     top: 50%;
     left: 50%;
@@ -65,11 +65,12 @@ nz-form-control{
 }
 
 button {
-    background-color: #141a33;
+    background-color: #091992;
     border: none;
 }
 
 .imgDiv {
+    justify-content: center;
     width: 100%;
     vertical-align: middle;
     margin-bottom: 30px;

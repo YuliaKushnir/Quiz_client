@@ -1,0 +1,67 @@
+// .login-form {
+//     max-width: 300px;
+// }
+
+.child{
+    padding: 30px;
+    position: absolute;
+    width: 380px;
+    // background-color: #f3afaf;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 2px 2px 120px -7px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    margin-bottom: 22px;
+}
+
+nz-form-control{
+    min-width: 280px;
+}
+
+.parent{
+    width: 100%;
+    height: 91vh;
+    position: relative;
+}
+
+.formItem{
+    padding:5px;
+}
+
+.formInput{
+    width:100%;
+    height:30px;
+    border-radius: 5px;
+    border-color: #f1f1f3;
+}
+
+// .login-form-margin {
+//     margin-bottom: 10px;
+// }
+
+// .login-form-forgot {
+//     float: right;
+// }
+
+.login-form-button {
+    color: #ffffff;
+    width: 96%;
+    height: 30px;
+    border-radius: 5px;
+    margin:10px 0px 20px 10px;
+}
+
+button {
+    // background-color: #141a33; // old color
+    background-color: #091992;
+    border: none;
+}
+
+.imgDiv {
+    justify-content: center;
+    width: 100%;
+    vertical-align: middle;
+    margin-bottom: 30px;
+    color: #141a33;
+}
