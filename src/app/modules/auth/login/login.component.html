@@ -5,7 +5,7 @@
                 <h1>Login</h1>
             </div>
 
-            <form nz-form [formGroup]="validateForm" class="login-form"  >
+            <form nz-form [formGroup]="validateForm" class="login-form" (ngSubmit)="submitForm()" >
                 <nz-form-item  class="formItem">
                     <nz-form-control nzErrorTip="Please input your email!">
                         <input type="email" nz-input placeholder="E-mail" formControlName="email" class="formInput"/>
