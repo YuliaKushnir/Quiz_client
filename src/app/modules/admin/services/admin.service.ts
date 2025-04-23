@@ -16,4 +16,9 @@ export class AdminService {
     return this.http.post(BASIC_URL + `api/test`, testDto);
   }
 
+  getAllTests(): Observable<any>{
+    console.log(this.http.get(BASIC_URL + `api/test`));
+    return this.http.get(BASIC_URL + `api/test`);
+  }
+
 }
