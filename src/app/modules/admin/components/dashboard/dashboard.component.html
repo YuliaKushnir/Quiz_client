@@ -7,7 +7,8 @@
                     <p><strong>Description:</strong> {{test.description}}</p>
 
                     <button nz-button nz-type="primary">View Test</button>
-                    <button nz-button nz-type="primary" style="margin-right:5px;">Add question</button>
+                    <button nz-button nz-type="primary" style="margin-right:5px;" 
+                    routerLink="/admin/add-question/{{test.id}}">Add question</button>
 
                 </nz-card>
             </span>
