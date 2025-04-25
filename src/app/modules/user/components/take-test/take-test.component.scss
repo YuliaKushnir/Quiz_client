@@ -1,0 +1,26 @@
+.question{
+    padding: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    margin-top: 30px;
+    border-radius: 5px;
+}
+
+.timer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0px;
+}
+
+.timer{
+    background-color: #f5f5f5;
+    border: 2px solid #141a33;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #091992;
+    text-align: center;
+    width: fit-content;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
